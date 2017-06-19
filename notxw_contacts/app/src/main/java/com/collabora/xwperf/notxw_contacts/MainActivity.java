@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,7 +23,7 @@ import com.collabora.xwperf.notxw_contacts.fragments.MainFragment;
 import org.androidannotations.annotations.EActivity;
 
 @EActivity
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FpsMeterView fpsMeter;
     private FpsGraphView fpsGraph;

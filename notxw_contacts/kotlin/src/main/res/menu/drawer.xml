@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_options"
+        android:title="Options" />
+    <item
+        android:id="@+id/drawer_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/drawer_preferences"
+        android:title="Preferences" />
+    <item
+        android:id="@+id/drawer_misc"
+        android:title="Misc" />
+    <item
+        android:id="@+id/drawer_other"
+        android:title="Other" />
+    <item
+        android:actionLayout="@layout/view_nav_div"
+        android:title="@null" />
+    <item
+        android:id="@+id/drawer_performance"
+        android:title="Performance" />
+</menu>

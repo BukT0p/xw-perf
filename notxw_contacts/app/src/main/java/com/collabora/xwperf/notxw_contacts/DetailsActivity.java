@@ -6,6 +6,7 @@ package com.collabora.xwperf.notxw_contacts;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -17,7 +18,7 @@ import com.collabora.xwperf.notxw_contacts.fragments.DetailsFragment;
 import org.androidannotations.annotations.EActivity;
 
 @EActivity
-public class DetailsActivity extends ActionBarActivity implements View.OnClickListener {
+public class DetailsActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static final String EXTRA_ITEM_ID = "itemId";
     private FpsMeterView fpsMeter;

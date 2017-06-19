@@ -8,7 +8,6 @@ package com.collabora.xwperf.notxw_contacts.adapters;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.AsyncTask;
-import android.support.v7.internal.widget.AdapterViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;

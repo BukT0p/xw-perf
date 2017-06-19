@@ -1,1 +1,1 @@
-include ':app', ':perf'
+include ':app', ':perf', ':kotlin'
